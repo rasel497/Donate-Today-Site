@@ -5,63 +5,43 @@
 
 }
 
+/* This part -01 */
 
+
+.texth {
+    font-size: 45px;
+    color: white;
+
+}
+
+.textp {
+    color: white;
+}
 
 .container {
-    width: 100vh;
-    height: 100%;
-    position: relative;
-    text-align: center;
-    color: white;
-
-
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-/* content {
     width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
     text-align: center;
-    color: white;
+    background-repeat: no-repeat;
     background-image: url(images/donation1.jpg);
-
-} */
-
-.text-h {
-    font-size: 45px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .button {
     background-color: orangered;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 50px;
-
-
-}
-
-
-.list {
+    color: white;
     padding: 10px;
-    display: inline;
-
+    border-radius: 4px;
+    margin-top: 50px;
 }
 
-.donate-today {
 
-    margin-top: 40px;
-
-}
+/* part 02 */
 
 .donate-h {
     font-size: 40px;
@@ -69,48 +49,53 @@
 }
 
 .donate-text {
-
     text-align: center;
 }
 
-.col-card {
-    width: 300px;
-    height: 700;
-    padding: 10px;
-
-}
-
-.card-h {
-    text-align: center;
-    color: red;
-}
-
-.col-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    background-color: #f1f1f1;
-
-}
 
 .input-bttn {
     text-align: center;
     margin-top: 40px;
 }
 
-
 input {
     border-style: hidden;
-    border-bottom-style: groove;
-    text-align: center;
+
 }
 
-.no-outline:focus {
-    outline: none;
+
+.donate-amount-list {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 40px;
 }
+
+.donate-amount {
+    list-style: none;
+    padding: 30px 30px;
+    background-color: aliceblue;
+    color: gray;
+    font-weight: 400;
+}
+
+hr {
+    width: 815px;
+    align-items: center;
+    margin-left: 20%;
+    position: absolute;
+}
+
+
 
 .button-2 {
     text-align: center;
 }
+
+
+
+
 
 /* food for family */
 
@@ -223,3 +208,8 @@ input {
     color: white;
     font-style: normal;
 }
+
+
+
+
+/* ddd */
