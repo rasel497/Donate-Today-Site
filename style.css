@@ -57,13 +57,13 @@
 .input-bttn {
     text-align: center;
     margin-top: 40px;
+    margin-left: 100px;
 }
 
 input {
     border-style: hidden;
 
 }
-
 
 .donate-amount-list {
     width: 60%;
@@ -79,10 +79,11 @@ input {
     background-color: aliceblue;
     color: gray;
     font-weight: 400;
+
 }
 
 hr {
-    width: 815px;
+    width: 900px;
     align-items: center;
     margin-left: 20%;
     position: absolute;
