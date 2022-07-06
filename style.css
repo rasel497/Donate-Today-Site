@@ -25,10 +25,11 @@
     display: flex;
     text-align: center;
     background-repeat: no-repeat;
-    background-image: url(images/donation1.jpg);
+    background-image: url(images/10070000-0aff-0242-a850-08da55cf4e16_w408_r0_s.webp);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 
@@ -189,11 +190,13 @@ hr {
 .from-box {
     padding: 10px;
     border-radius: 3px;
+    background-color: darkgrey;
+}
+
+.button-5 {
     background-color: tomato;
 
 }
-
-
 
 /* Foter */
 .foter {
