@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    width: 100vh;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: white;
+    background-image: url(images/donation1.jpg);
+
+} */
+
+.text-h {
+    font-size: 45px;
+
+}
+
+.button {
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+
+
+}
+
+
+.list {
+    padding: 10px;
+    display: inline;
+
+}
+
+.donate-today {
+
+    margin-top: 40px;
+
+}
+
+.donate-h {
+    font-size: 40px;
+    text-align: center;
+}
+
+.donate-text {
+
+    text-align: center;
+}
+
+.col-card {
+    width: 300px;
+    height: 700;
+    padding: 10px;
+
+}
+
+.card-h {
+    text-align: center;
+    color: red;
+}
+
+.col-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #f1f1f1;
+
+}
+
+.input-bttn {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+input {
+    border-style: hidden;
+    border-bottom-style: groove;
+    text-align: center;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+.button-2 {
+    text-align: center;
+}
+
+/* food for family */
+
+.package-description {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.title2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    width: 270px;
+
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 25px;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .8ms;
+
+}
+
+
+.package-descript-text {
+    text-align: justify
+}
+
+.icon img {
+    width: 70px;
+
+}
+
+/* lives */
+
+.h1-tag {
+    font-size: 45px;
+}
+
+.flexible-container {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.button {
+    display: inline;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+/* Foter */
+
+
+.foter {
+    color: tomato;
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    font-style: italic;
+}
+
+.tagp {
+    color: white;
+    font-style: normal;
+}
