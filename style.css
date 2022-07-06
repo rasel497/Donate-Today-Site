@@ -194,3 +194,48 @@ hr {
     color: white;
     font-style: normal;
 }
+
+/* dfafdz */
+
+
+.mail-box {
+    width: 800px;
+    height: 200px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    position: center;
+
+}
+
+.mail-box input {
+    border: none;
+    color: gray;
+    padding: 15px;
+    font-size: 17px;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.mail-box button {
+    border: none;
+    font-size: 17px;
+    margin-left: -5px;
+    background-color: tomato;
+    border-radius: 0px 5px 5px 0;
+}
+
+.mail-box button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.bttn {
+    padding: 15px;
+}
