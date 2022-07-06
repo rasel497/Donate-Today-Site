@@ -35,6 +35,7 @@
     padding: 10px;
     border-radius: 4px;
     margin-top: 50px;
+    border: none;
 }
 
 /* part 02 */
@@ -73,6 +74,34 @@ input {
     color: gray;
     font-weight: 400;
 }
+
+#one {
+
+    background-color: aquamarine;
+}
+
+#two {
+
+    background-color: gainsboro;
+    border: 5px solid tomato;
+}
+
+#three {
+
+    background-color: pink;
+}
+
+#four {
+
+    background-color: darkgrey;
+}
+
+#five {
+
+    background-color: coral;
+}
+
+
 
 hr {
     width: 850px;
@@ -152,6 +181,7 @@ hr {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    border: none;
 }
 
 /* e-mail */
